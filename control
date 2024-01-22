@@ -1,0 +1,9 @@
+Package: codes.aurora.tweak
+Name: Tweak
+Version: 1.0
+Architecture: iphoneos-arm
+Description: My tweak template.
+Maintainer: Alexandra Aurora Göttlicher
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
