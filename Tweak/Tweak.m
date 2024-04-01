@@ -48,7 +48,7 @@ __attribute((constructor)) static void initialize() {
         return;
     }
 
-	MSHookMessageEx(NSClassFromString(@"ExampleClass"), @selector(exampleMethod), (IMP)&override_ExampleClass_exampleMethod, (IMP *)&orig_ExampleClass_exampleMethod);
+	MSHookMessageEx(objc_getClass("ExampleClass"), @selector(exampleMethod), (IMP)&override_ExampleClass_exampleMethod, (IMP *)&orig_ExampleClass_exampleMethod);
 
 	CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, (CFNotificationCallback)load_preferences, (CFStringRef)kNotificationKeyPreferencesReload, NULL, (CFNotificationSuspensionBehavior)kNilOptions);
 }
