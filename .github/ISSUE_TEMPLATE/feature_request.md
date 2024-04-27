@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest a feature that can help make Tweak even better
+name: Feature Request
+about: Suggest a feature for Tweak.
 title: ''
 labels: enhancement
 assignees: vyolit
