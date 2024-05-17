@@ -53,7 +53,7 @@
 			<key>label</key>
 			<string>Reset Preferences</string>
 			<key>action</key>
-			<string>resetPrompt</string>
+			<string>promptToResetPreferences</string>
 		</dict>
 
 		<dict>

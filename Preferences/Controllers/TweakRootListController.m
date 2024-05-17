@@ -66,7 +66,7 @@
 /**
  * Prompts the user to reset their preferences.
  */
-- (void)resetPrompt {
+- (void)promptToResetPreferences {
     UIAlertController* resetAlert = [UIAlertController alertControllerWithTitle:@"Tweak" message:@"Are you sure you want to reset your preferences?" preferredStyle:UIAlertControllerStyleAlert];
 
     UIAlertAction* yesAction = [UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * action) {
