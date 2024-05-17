@@ -5,7 +5,7 @@
 //  Created by Alexandra Aurora Göttlicher
 //
 
-static NSString* const kPreferencesIdentifier = @"codes.aurora.tweak";
+static NSString* const kPreferencesIdentifier = @"codes.aurora.tweak.preferences";
 
 static NSString* const kPreferenceKeyEnabled = @"Enabled";
 
