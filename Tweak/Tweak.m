@@ -6,6 +6,9 @@
 //
 
 #import "Tweak.h"
+#import <substrate.h>
+#import "../Preferences/PreferenceKeys.h"
+#import "../Preferences/NotificationKeys.h"
 
 #pragma mark - ExampleClass class hooks
 
