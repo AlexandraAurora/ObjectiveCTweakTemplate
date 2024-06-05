@@ -3,7 +3,7 @@ name: Feature Request
 about: Suggest a feature for Tweak.
 title: ''
 labels: enhancement
-assignees: vyolit
+assignees: AlexandraAurora
 
 ---
 

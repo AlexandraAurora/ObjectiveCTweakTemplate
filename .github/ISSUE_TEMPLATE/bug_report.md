@@ -3,7 +3,7 @@ name: Bug Report
 about: Report a bug in Tweak.
 title: ''
 labels: bug
-assignees: vyolit
+assignees: AlexandraAurora
 
 ---
 
